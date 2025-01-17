@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6701114645753415120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6701114645753415086}
+  - component: {fileID: 6701114645753415085}
+  - component: {fileID: 4750383405266620972}
+  m_Layer: 0
+  m_Name: Cuelebre
+  m_TagString: Cuelebre
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6701114645753415086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701114645753415120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -96.4, y: -1.4, z: 85.8}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 41029528479480216}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6701114645753415085
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701114645753415120}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &4750383405266620972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701114645753415120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff13e92fd2186dd4991ab30e9a93a02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  llamado: 0
+  regresando: 0
+  dir_ida: {x: 0, y: 0, z: 0}
+  dir_vuelta: {x: 0, y: 0, z: 0}
+  pos_guardia: {fileID: 0}
+  origen_cueva: {fileID: 0}
+--- !u!1001 &5047312622993386634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6701114645753415086}
+    m_Modifications:
+    - target: {fileID: 2298568414827368774, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.017
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607470379174973352, guid: ab80c39b488b469499824d56820407c2, type: 3}
+      propertyPath: m_Name
+      value: CuelebreOBJ
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2522304692865874082, guid: ab80c39b488b469499824d56820407c2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ab80c39b488b469499824d56820407c2, type: 3}
+--- !u!4 &41029528479480216 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5087497704990283026, guid: ab80c39b488b469499824d56820407c2, type: 3}
+  m_PrefabInstance: {fileID: 5047312622993386634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8157046524961596754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3978946273888045528, guid: ab80c39b488b469499824d56820407c2, type: 3}
+  m_PrefabInstance: {fileID: 5047312622993386634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8358695600089822961
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8157046524961596754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
